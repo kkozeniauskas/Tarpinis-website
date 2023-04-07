@@ -93,6 +93,85 @@ header{
     }
 
   }
+
+  
+    .iphone {
+      display: flex;
+      flex-direction: row-reverse;
+
+      img{
+        width: 50%;
+      }
+
+      .text{
+        display: block;
+        margin: auto 100px;
+
+        h4{
+          font-size: 25px;
+        }
+
+        p{
+          width: 80%;
+          margin-top: 15px;
+          font-weight: lighter;
+          line-height: 25px;
+        }
+      }
+    }
+
+    .code{
+      display: flex;
+      flex-direction: row;
+
+
+      img{
+        width: 50%;
+      }
+
+      .text{
+        display: block;
+        margin: auto 100px;
+
+        h4{
+          font-size: 25px;
+        }
+
+        p{
+          width: 80%;
+          margin-top: 15px;
+          font-weight: lighter;
+          line-height: 25px;
+        }
+      }
+    }
+
+    .child{
+      display: flex;
+      flex-direction: row-reverse;
+
+      img{
+        width: 50%;
+      }
+
+      .text{
+        display: block;
+        margin: auto 100px;
+
+        h4{
+          font-size: 25px;
+        }
+
+        p{
+          width: 80%;
+          margin-top: 15px;
+          font-weight: lighter;
+          line-height: 25px;
+        }
+      }
+    }
+
+
   
     
   
