@@ -313,6 +313,9 @@ aside{
 
 
 
+  
+
+
 @media(max-width: 768px){
   nav{
     display: flex;
@@ -324,24 +327,23 @@ aside{
 }
 
 @media(max-width: 768px){
-  .container{
-   width: 100%;
-
-   h1{
-    display: flex;
-    text-align: center;
-    margin: auto;
+  header{
+  width: 100%;
   
 
-    .email{
-      display: flex;
-      justify-content: center;
-      width: 600px;
-    }
-      
-   }
+  h1{
+    font-size: 30px;
+    width: 100%;
+    margin: 150px 0;
+    text-align: center;
+  }
+   
+
+   
   }
 }
+
+
 
 @media(max-width: 768px){
   .controls{
@@ -377,6 +379,17 @@ aside{
     }
   }
 }
+
+@media(max-width: 768px){
+  .social{
+    a{
+      font-size: 30px;
+      margin: 10px;
+    }
+  }
+}
+
+
 
 
 
